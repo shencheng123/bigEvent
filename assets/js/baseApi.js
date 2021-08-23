@@ -6,7 +6,7 @@ $.ajaxPrefilter(function(option) {
         Authorization: localStorage.getItem('token') || ''
     };
     option.complete = function(response) {
-        if (response.responseJSON.code !== 0 && response.responseJSON.message !== '获取用户基本信息成功！') {
+        if (response.responseJSON && response.responseJSON.code !== 0) {
             location.href = '/login.html';
         }
     }

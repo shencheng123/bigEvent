@@ -1,0 +1,8 @@
+body {
+    padding: 15px;
+    background-color: rgb(242, 243, 245);
+}
+
+.layui-form input {
+    width: 400px;
+}
