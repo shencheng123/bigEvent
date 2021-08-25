@@ -1,0 +1,14 @@
+body {
+    padding: 15px;
+    background-color: rgb(242, 243, 245);
+}
+
+.layui-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layui-form {
+    padding: 20px 30px 0 0;
+}

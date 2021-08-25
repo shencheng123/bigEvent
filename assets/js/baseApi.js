@@ -7,7 +7,8 @@ $.ajaxPrefilter(function(option) {
     };
     option.complete = function(response) {
         if (response.responseJSON && response.responseJSON.code !== 0) {
-            location.href = '/login.html';
+            // location.href = '/login.html';
+
         }
     }
 });
